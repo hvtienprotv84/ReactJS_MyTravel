@@ -25,7 +25,14 @@ function App() {
       <section className="location">
           {card}
       </section>      
+      <div className='container_content_myname'>
+      <div className="content_myname">
+        <hr className="section--divider_myname" />
+        <h1 className="h1_content_myname" style={{ fontSize: '16px' }}>© Mọi bản quyền thuộc về<span><strong> Huỳnh Vĩnh Tiến</strong></span> - 2024 All rights reserved.</h1>
+        </div>
+        </div>
     </div>
+    
   );
 }
 

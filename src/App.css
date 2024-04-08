@@ -128,10 +128,13 @@
   font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   color:rgb(255, 255, 255);
 }
-
+.container_content_myname{
+  display: flex;
+  justify-content: center;
+}
 .content_myname{
-  position: absolute;
-  top:2150px;
+  position: relative;
+  /* top:10px; */
   font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 .content_myname span{

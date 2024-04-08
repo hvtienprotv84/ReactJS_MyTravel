@@ -10,10 +10,6 @@ export default function Navbar(){
             <img src="https://i.pinimg.com/originals/6f/22/15/6f2215fb658f19a9206c22b38b676ee6.gif" alt='Globe'/>
             <img src="https://i.pinimg.com/originals/6f/22/15/6f2215fb658f19a9206c22b38b676ee6.gif" alt='Globe'/>           
         </nav>
-        <div className="content_myname">
-        <hr className="section--divider_myname" />
-        <h1 className="h1_content_myname" style={{ fontSize: '16px' }}>© Mọi bản quyền thuộc về<span><strong> Huỳnh Vĩnh Tiến</strong></span> - 2024 All rights reserved.</h1>
-        </div>
         </div>
     );
 }

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ReactJS_MyTravel/static/css/main.bc9bbaa5.css",
+    "main.js": "/ReactJS_MyTravel/static/js/main.26241972.js",
+    "static/media/love.gif": "/ReactJS_MyTravel/static/media/love.2232200b5618fca4f8ae.gif",
+    "index.html": "/ReactJS_MyTravel/index.html",
+    "main.bc9bbaa5.css.map": "/ReactJS_MyTravel/static/css/main.bc9bbaa5.css.map",
+    "main.26241972.js.map": "/ReactJS_MyTravel/static/js/main.26241972.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc9bbaa5.css",
+    "static/js/main.26241972.js"
+  ]
+}
