@@ -1,0 +1,270 @@
+.App{
+  height: 100%;
+}
+.container_nav--bar{
+  display: flex;
+  justify-content: center;
+}
+
+.nav--bar{
+  width: 450px;
+  height: 55px;
+  color: rgb(255, 0, 0);
+  background-color: #21315a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.nav--bar > img{
+  width: 70px;
+  height: 50px;
+}
+
+/* .location{
+  max-height: 900px;
+  overflow-y: auto;
+} */
+
+/* .location::-webkit-scrollbar{
+    background: transparent;
+    width: 8px;
+}
+
+.location::-webkit-scrollbar-thumb{
+  background: #2B283A;
+  border-radius: 10px; 
+}
+
+.location::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1); 
+} */
+
+
+/* Image Styling */
+.tile{
+  width: inherit;
+  height: 25%;
+  display: flex;
+  gap: 5%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.image--section{
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image--section > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 45% center;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* Info Section */
+.info--section{
+  flex: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content
+  : center;
+
+}
+
+.info--location{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.info--location > span{
+   letter-spacing: 5px;
+   font-size: 15px;
+}
+
+.info--location > a{
+  letter-spacing: 0px;
+  color: #918E9B;
+  font-size: 15px;
+}
+
+.info--section > h1{
+  margin-top: 3px;
+  margin-bottom: 0;
+  font-size: 35px;
+  color: #2B283A;
+}
+
+.info--section > h4{
+  margin-top: 15px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #2B283A;
+}
+
+.info--section > p{
+  line-height: 1.7;
+  color: #2B283A;
+}
+
+/* Section Divider */
+.section--divider{
+  border: solid 2px #F5F5F5;
+  border-radius: 10px;
+  width: 95%;
+}
+
+.title_content{
+  font-size:20px;
+  font-weight: bold;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color:rgb(255, 255, 255);
+}
+
+.content_myname{
+  position: absolute;
+  top:2150px;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.content_myname span{
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color:red;
+}
+
+.section--divider_myname{
+  border: double 2px #0022ff;
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Quy tắc cho PC */
+@media screen and (min-width: 1025px) {
+  /* Các quy tắc CSS dành cho PC */
+  
+}
+
+/* Quy tắc cho máy tính bảng */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Các quy tắc CSS dành cho máy tính bảng */
+
+}
+
+/* Quy tắc cho điện thoại di động */
+@media screen and (max-width: 600px) {
+  /* Các quy tắc CSS dành cho điện thoại di động */
+  .nav--bar{
+    width: 400px;
+    height: 55px;
+    color: rgb(255, 0, 0);
+    background-color: #21315a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 10px;
+  }
+  
+  .nav--bar > img{
+    width: 60px;
+    height: 50px;
+    border-radius: 20px;
+  }
+  
+  .title_content{
+    font-size:20px;
+    font-weight: bold;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color:rgb(255, 255, 255);
+  }
+  
+  /* Image Styling */
+.tile{
+  width: inherit;
+  height: 25%;
+  display: flex;
+  gap: 5%;
+  /* padding: 20px; */
+  /* margin: 20px; */
+}
+
+.image--section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image--section > img{
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 45% center;
+  border-radius: 10px 10px 10px 10px;
+  margin-left:-32px;
+  margin-top:-80px;
+}
+
+.info--location{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-left:-370px;
+  /* max-width: 500px; */
+  margin-top:-30px;
+
+}
+
+.info--location > span{
+   /* letter-spacing: 5px; */
+   font-size: 14px;
+   font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.info--section > h1{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 30px;
+  color: #2B283A;
+  margin-left:-370px;
+  /* max-width: 500px; */
+}
+
+.info--section > p{
+  color: #2B283A;
+  margin-left:-370px;
+  /* max-width: 1500px;
+  max-height: 1500px; */
+  max-width: 360px;
+  margin-top:240px;
+}
+
+.content_myname{
+  position: absolute;
+  top:3020px;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.h1_content_myname{
+  font-size: 11px !important;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+
+}
+.content_myname span{
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color:red;
+}
+
+.section--divider_myname{
+  border: double 2px #0022ff;
+  border-radius: 10px;
+  width: 50%;
+}
+
+}
